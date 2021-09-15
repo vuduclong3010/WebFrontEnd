@@ -1,0 +1,742 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+.wapper {
+    width: 100%;
+    height: 100%;
+}
+
+a {
+    text-decoration: none;
+}
+
+.container {
+    width: 1180px;
+    margin: auto;
+}
+
+.banner {
+    width: 1180px;
+    height: auto;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.banner1 {
+    width: 1180px;
+    height: 550px;
+    position: relative;
+}
+
+.banner1 img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 0;
+}
+
+.banner1 .title {
+    width: 645px;
+    height: 150px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    z-index: 1;
+    color: white;
+}
+
+.banner1 .title h4 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    font-size: 36px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+    line-height: 26px;
+    text-transform: uppercase;
+
+    opacity: 0;
+    animation: divaobanner 2s forwards;
+}
+
+.banner1 .title h2 {
+    position: absolute;
+    top: 30px;
+    left: 0;
+    font-size: 81px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 700;
+    text-transform: uppercase;
+    line-height: 1.1;
+    letter-spacing: 1rem;
+
+    opacity: 0;
+    animation: divaobanner 2s forwards;
+}
+
+.banner1 .title h5 {
+    position: absolute;
+    right: 0;
+    bottom: -50px;
+    font-size: 36px;
+    line-height: 1.1;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 300;
+
+    opacity: 0;
+    animation: fomtchudilen 1.5s forwards;
+    animation-delay: 1.3s;
+}
+
+.banner1 .title span {
+    color: #ff675d !important;
+}
+
+.mb-4 {
+    width: 1180px;
+    margin-top: 22px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.mb-4 .left {
+    width: 580px;
+    height: 250px;
+    position: relative;
+}
+
+.divtong {
+    width: 580px;
+    height: 250px;
+    position: absolute;
+    bottom: -150px;
+    left: 0;
+    opacity: 0;
+
+    animation: dilentren 1.5s forwards;
+    animation-delay: 0.5s;
+}
+
+.mb-4 .left img {
+    width: 100%;
+    top: 0;
+    left: 0;
+    position: absolute;
+    z-index: 0;
+}
+
+.mb-4 .left .text {
+    width: 206px;
+    height: 96px;
+    position: absolute;
+    top: 50%;
+    right: 40px;
+    z-index: 1;
+    transform: translateY(-50%);
+    overflow: hidden;
+    color: white;
+}
+
+.mb-4 .text h6 {
+    font-size: 20px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 300;
+    margin-bottom: 0.1rem;
+}
+
+.mb-4 .text h5 {
+    font-size: 28px;
+    line-height: .95;
+    font-family: 'Poppins', sans-serif;
+}
+
+.mb-4 .text a {
+    color: white;
+    font-size: 14px;
+    text-decoration: none;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    text-transform: uppercase;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    transition: 0.4s;
+}
+
+.mb-4 .text .fa {
+    font-size: 16px;
+    margin-left: 8px;
+}
+
+.mb-4 .text a:hover {
+    border-bottom: 1px solid white;
+} 
+
+
+/* Phần sản phầm */
+.product {
+    width: 1180px;
+    height: auto;
+}
+
+.product h2.title-simple {
+    display: block;
+    text-align: center;
+    margin-top: 70px;
+    font-size: 26px;
+    margin-bottom: 26px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+}
+
+.product .row {
+    width: 1180px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.product .row .product_1 {
+    width: 280px;
+    height: auto;
+    margin-bottom: 26px;
+}
+
+.product .product_1 .tren {
+    width: 280px;
+    height: 315px;
+    overflow: hidden;
+    position: relative;
+}
+
+.product .product_1 .tren img {
+    width: 280px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 0;
+}
+
+.product .product_1 .tren span {
+    position: absolute;
+    display: inline-block;
+    z-index: 1;
+    top: 22px;
+    left: 18px;
+    padding: 1px 12px;
+    background-color: black;
+    color: white;
+    text-transform: uppercase;
+    font-size: 13px;
+    border-radius: 3px;
+}
+
+.product_1 .sale {
+    background-color: #ff675d !important;
+}
+
+.product_1 .tren .cacicon {
+    position: absolute;
+    z-index: 2;
+    right: 18px;
+    top: 22px;
+    width: 35px;
+
+    opacity: 0;
+    transition: 0.4s;
+}
+
+.product_1 .cacicon .fa {
+    font-size: 20px;
+    color: #999;
+    box-sizing: border-box;
+    width: 35px;
+    height: 35px;
+    padding: 8px;
+    margin-bottom: 10px;
+    border-radius: 50%;
+    border: 1px solid #e1e1e1;
+    transition: 0.4s;
+}
+
+.product_1:hover .cacicon {
+    opacity: 1;
+}
+
+.product_1 .cacicon .fa:hover {
+    background-color: black;
+    color: white;
+}
+
+.product_1 .nut {
+    width: 100%;
+    position: absolute;
+    z-index: 3;
+    bottom: 0;
+    left: 0;
+    display: inline-block;
+    text-align: center;
+    background-color: #222;
+    color: white;
+    text-decoration: none;
+    text-transform: uppercase;
+    padding: 16px 0;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 700;
+    font-size: 14px;
+    opacity: 0;
+
+    transition: 0.4s;
+}
+
+.product_1:hover .nut {
+    opacity: 1;
+    background-color: #222222a1;
+}
+
+.product_1 .nut:hover {
+    opacity: 1;
+    background-color: #222;
+}
+
+/* product-details */
+
+.product-details {
+    width: 280px;
+    position: relative;
+    padding-top: 10px;
+    padding-bottom: 30px;
+}
+
+a.product-cat {
+    margin-bottom: .5rem;
+    font-size: 0.7rem;
+    font-weight: 400;
+    line-height: 1;
+    text-transform: uppercase;
+    overflow: hidden;
+    display: block;
+    font-family: 'Poppins', sans-serif;
+    color: #999;
+    transition: 0.4s;
+}
+
+a.product-name {
+    margin-bottom: .3rem;
+    font-family: 'Poppins', sans-serif;
+    font-size: 0.9rem;
+    font-weight: 400;
+    letter-spacing: -.01em;
+    color: #666;
+    padding-right: 20px;
+    overflow: hidden;
+    display: block;
+    transition: 0.4s;
+}
+
+span.price {
+    overflow: hidden;
+    display: block;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-bottom: .3rem;
+    font-size: 1.1rem;
+    font-weight: 600;
+    line-height: 1.86;
+    color: #222;
+}
+
+a.product-name:hover {
+    color: black;
+}
+
+a.product-cat:hover {
+    color: #666;
+}
+
+.ratings-container {
+    position: absolute;
+    width: 100%;
+    bottom: 15px;
+    left: 0;
+    display: flex;
+    flex-wrap: wrap;
+    overflow: hidden;
+}
+
+.ratings-container .left-icon {
+    font-size: 13px;
+}
+
+.ratings-container .left-icon .activer {
+    color: #ff675d;
+}
+
+a.review {
+    font-size: 13px;
+    color: #aaa;
+    display: inline;
+    padding: 0 10px;
+}
+
+a.review:hover {
+    color: black;
+}
+
+/* Catergories */
+.Categories .title-simple-catergories {
+    margin-top: 30px !important;
+}
+
+.row_catergories {
+    width: 1180px;
+    height: auto;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+/* catergories-left */
+
+.catergories-left {
+    width: 580px;
+    height: 580px;
+    position: relative;
+    overflow: hidden;
+}
+
+.catergories-left img {
+    width: 580px;
+    height: 580px;
+    top: 0;
+    left: 0;
+    z-index: 1;
+}
+
+.catergories-left .nen {
+    position: absolute;
+    width: 580px;
+    height: 580px;
+    top: 0;
+    left: 0;
+    background-color: #00000013;
+    z-index: 2;
+
+    opacity: 0;
+    transition: 0.5s;
+}
+
+.catergories-left:hover .nen {
+    opacity: 1;
+}
+
+.catergories-left .bottom {
+    width: 580px;
+    position: absolute;
+    z-index: 3;
+    color: white;
+    left: 0;
+    bottom: 20px;
+    display: flex;
+    justify-content: center;
+}
+
+.catergories-left .bottom a {
+    display: inline-block;
+    padding: 16px 42px;
+    margin-right: 10px;
+    border-radius: 3px;
+    font-size: 14px;
+    color: #222;
+    background-color:#f5f5f5d9;
+    border-color: #f5f5f5d9;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+
+    transition: 0.5s;
+}
+
+.catergories-left .bottom a:last-child {
+    margin-right: 0;
+}
+
+.catergories-left .bottom a:hover {
+    background-color: #000000c2;
+    color: #fff;
+}
+
+/* Catergories_right */
+.catergories-right {
+    width: 580px;
+    height: 580px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.catergories-right .top {
+    width: 580px;
+    height: 280px;
+    position: relative;
+}
+
+.catergories-right .top img {
+    width: 580px;
+    height: 280px;
+    background-size: cover;
+}
+
+.catergories-right .top .nen {
+    width: 580px;
+    height: 280px;
+}
+
+.catergories-right .top .bottom {
+    align-items: flex-end;
+}
+
+.position-icon {
+    position: relative;
+    width: max-content;
+}
+
+.catergories-right .fa-long-arrow-right {
+    position: absolute;
+    left: 75%;
+    bottom: 38%;
+    opacity: 0;
+
+    transition: 0.3s;
+}
+
+.catergories-right .position-icon:hover .fa-long-arrow-right {
+    left: 84%;
+    opacity: 1;
+}
+
+.catergories-right .catergories-bottom {
+    margin-top: 20px;
+}
+
+
+/* Background */
+.background {
+    width: 1180px;
+    height: 250px;
+    background-image: url(img/background.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.banner_sale {
+    width: 1180px;
+    height: 250px;
+    margin: 80px 0;
+    box-sizing: border-box;
+    position: relative;
+}
+
+.background_position {
+    width: 600px;
+    position: absolute;
+    top: 80%;
+    left: 6%;
+    transform: translate(-4%, -50%);
+
+    opacity: 0;
+    animation: backgroundilen 2s forwards ;
+}
+
+.banner_sale h4 {
+    font-size: 1.6rem;
+    color: white;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 300;
+}
+
+.duongvien {
+    width: 190px;
+    height: 1px;
+    background-color: #fff;
+    opacity: .2;
+}
+
+.banner_sale h2 {
+    color: white;
+    font-family: 'Poppins', sans-serif;
+    display: block  ;
+    font-size: 4.7rem;
+    font-weight: 800;
+    line-height: 1;
+    letter-spacing: .05em;
+}
+
+.banner_sale  .hop {
+    position: absolute;
+    top: -13%;
+    left: 42%;
+    width: 145px;
+    height: 145px;
+    border-radius: 50%;
+    border: 3px solid rgba(255,255,255,0.6);
+    justify-content: center;
+    align-items: center;
+    transform: rotate(-15deg);
+    display: flex;
+}
+
+.banner_sale .hop h5 {
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 1.3;
+    font-family: 'Poppins', sans-serif;
+    color: white;
+    text-align: center;
+}
+
+.banner_sale .hop span {
+    color: #ff675d;
+    font-size: 36px;
+    font-weight: 800;
+}
+
+.banner_sale .hop h5:last-child {
+    text-transform: uppercase;
+}
+
+/* Our Featured */
+.product_1 .an {
+    opacity: 0;
+}
+
+.product_1 .del {
+    margin-left: 4px;
+    color: #aaa;
+}
+
+/* owl-stage-outer */
+.owl-stage-outer {
+    width: 1180px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    border-top: 1px solid #aaaaaa57;
+    border-bottom: 1px solid #aaaaaa57;
+    margin-top: 36px;
+}
+
+.icon-box-content {
+    padding: 27px 0;
+    text-align: center;
+}
+
+.icon-box-content h3 {
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+    color: black;
+    font-weight: 700;
+}
+
+.icon-box-content p {
+    font-family: 'Poppins', sans-serif;
+    font-size: 14px;
+    color: #222;
+    font-weight: 400;
+}
+
+/* Instagram */
+.Instagram .Instagram_1 {
+    width: 1180px;
+    height: auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    overflow: hidden;
+}
+
+.Instagram_1 .anh_instagram {
+    width: 220px;
+    height: 220px;
+    overflow: hidden;
+    position: relative;
+}
+
+.Instagram_1 img {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 0;
+
+    transition: 0.5s;
+}
+
+.Instagram_1 .anh_instagram:hover img {
+    transform: scale(1.14);
+}
+
+.Instagram_1 .nen {
+    width: 220px;
+    height: 220px;
+    background-color: #00000080;
+    position: absolute;
+    z-index: 1;
+
+    opacity: 0;
+}
+
+.Instagram_1 .anh_instagram:hover .nen {
+    opacity: 1;
+}
+
+.Instagram_1 .icon {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 2;
+}
+
+.Instagram_1 .icon .fa{
+    font-size: 60px;
+    color: white;
+
+    opacity: 0;
+    transform: scale(2);
+    transition: 0.5s;
+    transform: rotate(90deg);
+}
+
+.Instagram_1 .anh_instagram:hover .fa {
+    opacity: 1;
+    font-size: 30px;
+    transform: rotate(0deg);
+    transform: scale(1);
+}
+
+/* Cac thuoc tinh animation */
+@-webkit-keyframes divaobanner {
+    from {left: -10%; opacity: 0;}
+    to {left: 0; opacity: 1;}
+}
+
+@-webkit-keyframes fomtchudilen {
+    from {bottom: -100px; opacity: 0;}
+    to {bottom: 0; opacity: 1;}
+}
+
+@-webkit-keyframes dilentren {
+    from {bottom: -150px; opacity: 0;}
+    to {bottom: 0; opacity: 1;}
+}
+
+@-webkit-keyframes backgroundilen {
+    font {top: 80%; opacity: 0;}
+    to {top: 50%; opacity: 1;}
+}
