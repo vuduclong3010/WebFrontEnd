@@ -1,0 +1,73 @@
+.container {
+    max-width: 1260px;
+}
+
+.container .title{
+    text-align: center !important;
+    padding: 50px 0;
+}
+
+.align-items-center {
+    text-align: center;
+}
+
+.listWine .wine {
+    text-align: center;
+    padding: 2em;
+    transition: .2s;
+}
+
+.wine a{
+    color: black;
+}
+
+.listWine .wine h4 {
+    font-size: 1.2em;
+    color: #000;
+    margin-bottom: 0;
+}
+
+.listWine .wine img {
+    width: 250px;
+}
+
+.img-fluid {
+    max-width: 100%;
+    height: auto;
+}
+
+img {
+    vertical-align: middle;
+    border-style: none;
+}
+
+.listWine .wine p {
+    color: #777777;
+}
+
+p {
+    margin-top: 0;
+    margin-bottom: 1rem;
+}
+
+.listWine a:hover {
+    text-decoration: none;
+}
+
+.listWine:hover .p-0:hover{
+    box-shadow: 0 0 2px 0px #888;
+    border: 1px solid #888;
+    transition: 1s;
+}
+
+.footer-hangruou {
+    margin-top: 3rem;
+}
+
+.listWine .row > div:nth-of-type(2n) .wine {
+    background: #fafafa;
+}
+
+.pagination {
+    padding: 2rem;
+}

@@ -1,0 +1,276 @@
+* {
+    margin: 0;
+    padding: 0;
+    outline: none;
+    font-family: 'Roboto', sans-serif;
+}
+html{
+    font-size: 16px;
+}
+
+.container {
+    max-width: 1260px;
+}
+
+/* Header */
+.header{
+    position: relative;
+    top:0; left: 0; right: 0;
+    z-index: 1000;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo img {
+    height: 5em;
+}
+
+.logo {
+    display: flex;
+    justify-content: center;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    z-index: -1;
+}
+
+.navbar {
+    width: 100%;
+    display: flex;
+    justify-content: between;
+}
+
+.navbar .menu-left, .menu-right {
+    display: flex;
+    justify-content: between;
+    list-style: none;
+}
+
+.navbar .menu-left li, .navbar .menu-right li {
+    position: relative;
+    z-index: 99;
+    padding: 1.5rem 1rem;
+}
+
+.menu-left a, .menu-right a {
+    text-transform: uppercase;
+    color: black;
+    text-decoration: none;
+}
+
+.navbar ul li:hover a {
+    color: red;
+}
+
+.fa-bars {
+    float: right;
+    font-size: 1.5rem;
+    color: #000;
+    cursor: pointer;
+    display: none;
+}
+
+/* pagination */
+.pagination li{
+    padding: .5em 1em;
+    border: 1px solid #000;
+}
+.pagination li:hover, .pagination li.active{
+    background: black;
+    color: white;
+}
+
+.pagination {
+    padding: 2rem 2rem ;
+}
+
+
+/* Footer */
+footer {
+    background: #363636;
+    margin-top: -1.5rem;
+    color: white;
+}
+
+footer .row {
+    padding: 2rem 0 4rem 0;
+}
+
+footer h5 {
+    text-transform: uppercase;
+    font-size: .8rem;
+}
+footer h5, footer h4 {
+    
+    color: #fff;
+    padding: 0 0 .6rem 0;
+    position: relative;
+}
+
+.pt-2, .py-2 {
+    padding-top: .5rem!important;
+}
+.mt-2, .my-2 {
+    margin-top: .5rem!important;
+}
+footer h4 {
+    font-size: 1rem;
+}
+
+footer address, footer p {
+    font-family: 'MULI-REGULAR';
+    color: #c1baba;
+    font-size: 1rem;
+    padding: .05rem 0;
+}
+
+footer address, footer p {
+    color: #c1baba;
+    font-size: 1rem;
+    padding: .05rem 0;
+}
+
+address {
+    margin-bottom: 1rem;
+    font-style: normal;
+    line-height: inherit;
+}
+
+footer p {
+    color: #fff;
+    margin: 0;
+}
+
+.mt-4, .my-4 {
+    margin-top: 1.5rem!important;
+}
+
+footer a {
+    color: #fff;
+}
+
+footer li {
+    list-style: none;
+}
+
+footer .social-icon a i {
+    font-size: 30px;
+}
+
+.fab, .far {
+    font-weight: 400;
+}
+
+.far-1, .fa-youtube-square {
+    margin-left: 2rem;
+}
+
+.line-remove {
+    float: left;
+    position: absolute;
+    height: .2rem;
+    background: rgba(255, 255, 255, 0.75);
+    border-radius: 10px;
+    bottom: 0px;
+    left: 0;
+}
+
+@media (max-width:768px){
+    html {
+        height: auto;
+        font-size: 12px;
+        padding: 0;
+        margin: 0;
+    }
+
+    .col-sm-6 {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    header {
+        position: relative;
+        width: 100%;
+        height: 80px;
+        margin-bottom: 1rem;
+    }
+
+    .header .logo {
+        display: flex;
+        justify-content: start;
+        position: absolute;
+        width: 100px;
+        height: auto;
+        top: 0;
+        left: 0;
+        z-index: -1;
+    }
+
+    .logo img {
+        height: 7em;
+        padding: 1em;
+    }
+
+    .header .navbar{
+        position: absolute;
+        top: 0; 
+        right: 0;
+        width: 100%;
+        height: 100vh;
+        transform: scale(0);
+        opacity: 0;
+        transform-origin: top right;
+        transition: none;
+        flex-direction: column;
+        justify-content: start;
+        background: black;
+        text-align:center;
+        z-index: 99;
+        transition: 0.4s;
+        overflow: hidden;
+    }
+
+    .navbar .menu-left, .menu-right {
+        width: 100%;
+        flex-direction: column;
+        margin-top: 20%;
+    }
+
+    .menu-right {
+        margin: 0;
+    }
+
+    .navbar .menu-left li, .navbar .menu-right li {
+        padding: 1rem 0;
+        margin: 0;
+    }
+    .navbar .menu-right li:first-child {
+        padding-top: 0;
+    }
+
+    #menu-btn{
+        display: initial;
+        position: absolute;
+        z-index:100;
+        top: 30px;
+        right: 8%;
+    }
+
+    .menu-left a, .menu-right a {
+        color: #fff;
+        font-size: 1.6em;
+    }
+
+    .header .navbar.active{
+        transform: scale(1);
+        opacity: 1;
+        transition: 0.4s;
+    }
+    
+    .fa-times {
+        color: #fff;
+    }
+}

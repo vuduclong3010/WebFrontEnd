@@ -1,0 +1,197 @@
+.container-1 {
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.container {
+    max-width: 1260px;
+}
+
+html{
+    font-size: 16px;
+}
+
+a {
+    text-decoration: none;
+}
+
+header {
+    z-index: 2;
+}
+
+.images img {
+    width: 100%;
+}
+
+section .row {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.manufacturer{
+    border-radius: 16px;
+    transition: all 2s ease;
+    overflow: hidden;
+    margin-bottom: 3rem;
+}
+
+.manufacturer img {
+    width: 100%;
+}
+
+.manufacturer:hover img {
+    transform: scale(1.2);
+}
+
+.bg-images {
+    position: relative;
+}
+
+.bg-images {
+    overflow: hidden;
+    transition: all 2s ease;   
+}
+
+.manufacturer img {
+    width: 100%;
+    transition: 2s;
+}
+
+.bg-images img {
+    width: 100%;
+    transition: 3s;
+}
+
+.bg-images:hover img{
+    transform: scale(1.3);
+}
+.content {
+    text-align: center;
+    width: 100%;
+    top: 36%;
+    left: 0;
+    position: absolute;
+}
+
+.content h4 {
+    color: white;
+    font-size: 2rem;
+    padding-bottom: 2.5rem;
+}
+
+.content a {
+    background: #2A2A2A;
+    padding: .8em 1.5em;
+    color: #fff;
+    text-transform: uppercase;
+}
+
+.content:hover a {
+    text-decoration: none;
+}
+
+.col-md-3 {
+    justify-content: center;
+    align-items: center;
+}
+
+.slick .col-md-3 img {
+    width: 100%;
+    height: 100%;
+}
+
+.slick {
+    padding: 4rem 0 0.8rem 0;
+}
+
+.slick-dotted.slick-slider
+{
+    margin-bottom: 40px;
+}
+
+.slick-dots {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    margin-left: 5px;
+}
+
+
+.slick-dots li {
+    display: inline-block;
+}
+
+.slick-dots li button {
+    font-size: 0;
+    width: 1px;
+    height: 1px;
+    background-color:black;
+    border-radius: 50%;
+    border: none;
+}
+
+.slick-dots .slick-active button {
+    background: #2a8bc6;
+    height:2px;
+    width: 2px;
+}
+
+@media only screen and (max-width: 991px){
+    html{
+        font-size: 14px;
+    }
+    section .row{
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .col-md-6 {
+        max-width: 100%;
+    }
+    .content {
+        padding: 0em 2em 2em 2em;
+    }
+}
+
+@media only screen and (max-width: 767px) {
+    html{
+        font-size: 12px;
+    }
+    
+    section .row{
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .col-md-6 {
+        max-width: 100%;
+    }
+    .content {
+        text-align: center;
+        width: 100%;
+        top: 20%;
+        left: 0;
+        position: absolute;
+    }
+}
+
+@media only screen and (max-width: 374px) {
+    html{
+        font-size: 10px;
+    }
+    section .row{
+        display: block;
+    }
+    .col-md-6 {
+        max-width: 100%;
+    }
+    .content {
+        text-align: center;
+        width: 100%;
+        top: 20%;
+        left: 0;
+        position: absolute;
+    }
+}
+

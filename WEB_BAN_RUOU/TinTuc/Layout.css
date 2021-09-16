@@ -1,0 +1,36 @@
+.container {
+    max-width: 1260px;
+}
+
+section h2 {
+    text-align: center;
+    text-transform: uppercase;
+    margin: 3rem 0;
+    font-weight: 400;
+    font-size: 1.8rem;
+}
+.news .item {
+    margin-bottom: 2em;
+}
+.news .item img {
+    width: 100%;
+    height: 250px;
+}
+.news .item .img {
+    margin-bottom: 1em;
+}
+.news .item a {
+    color: #000;
+    text-transform: uppercase;
+}
+.news .item .title {
+    margin-bottom: .5em;
+}
+.news .item .desc{
+    font-size: .9em;
+    color: #a6a6a6;
+}
+.news .item .title:hover a {
+    text-decoration: none;
+    color: #c00000;
+}
