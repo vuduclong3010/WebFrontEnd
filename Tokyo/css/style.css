@@ -1,0 +1,965 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 15px;
+    line-height: 30px;
+    letter-spacing: .5px;
+    word-wrap: break-word;
+    font-weight: 400;
+    background-color: #fff;
+    color: #767676;
+    box-sizing: border-box;
+}
+
+ul li {
+    list-style: none;
+}
+
+/* Root */
+.root {
+    width: 100%;
+    height: 100%;
+}
+
+.tokyo_tm_all_wrap {
+    width: 100%;
+    height: auto;
+    clear: both;
+    float: left;
+    position: relative;
+}
+
+
+/* Left */
+ul.react-tabs__tab-list {
+    position: absolute;
+    right: 0;
+    top: 158px;
+    z-index: 2;
+}
+
+.tokyo_tm_all_wrap .leftpart {
+    width: 450px;
+    height: 100vh;
+    position: fixed;
+    left: 0;
+    top: 0;
+    display: flex;
+    align-items: center;
+    z-index: 10;
+    padding: 0 100px;
+    background-color: #fff;
+}
+
+.tokyo_tm_all_wrap .leftpart_inner {
+    width: 100%;
+    height: auto;
+}
+
+.tokyo_tm_all_wrap .leftpart img {
+    max-width: 150px;
+}
+
+.tokyo_tm_all_wrap .leftpart .menu {
+    padding: 40px 0 50px;
+    width: 100%;
+    float: left;
+}
+
+.tokyo_tm_all_wrap .leftpart .menu ul {
+    margin: 0;
+    list-style-type: none;
+}
+
+.tokyo_tm_all_wrap .leftpart .menu ul li {
+    width: 100%;
+    text-decoration: none;
+    color: #767676;
+    display: inline-block;
+    font-weight: 500;
+    font-family: "Montserrat";
+    transition: all .3s ease;
+    cursor: pointer;
+    margin: 0 0 10px;
+}
+
+.tokyo_tm_all_wrap .leftpart img {
+    max-width: 150px;
+}
+
+.tokyo_tm_all_wrap .leftpart .menu ul li .svg {
+    margin-right: 10px;
+    opacity: .7;
+    transition: all .3s ease;
+}
+
+img.svg, svg {
+    width: 15px;
+    height: 15px;
+}
+
+.tokyo_tm_all_wrap .react-tabs__tab:hover .menu_content {
+    letter-spacing: 2px;
+    color: black;
+    transition: all .3s ease;
+}
+
+.tokyo_tm_all_wrap .leftpart .copyright {
+    width: 100%;
+    float: left;
+}
+
+.tokyo_tm_all_wrap .leftpart .copyright p {
+    font-size: 15px;
+    color: #999;
+    font-family: "Montserrat";
+    line-height: 25px;
+    font-style: italic;
+}   
+
+.tokyo_tm_all_wrap .leftpart .copyright a {
+    text-decoration: none;
+    color: #787878;
+    font-weight: 500;
+    padding-left: 5px;
+    transition: all .3s ease;
+}
+
+.tokyo_tm_all_wrap .leftpart .copyright a:hover {
+    color: #000;
+    letter-spacing: 2px;
+}
+
+
+
+/* Right */
+.tokyo_tm_all_wrap .rightpart {
+    padding-left: 450px;
+}
+
+.tokyo_tm_all_wrap .rightpart {
+    width: 100%;
+    min-height: 100vh;
+    float: left;
+    position: relative;
+    background-color: #f8f8f8;
+}
+
+.tokyo_tm_all_wrap .rightpart_in {
+    position: relative;
+    width: 100%;
+    float: left;
+    clear: both;
+    border-left: 1px solid #ebebeb;
+    min-height: 100vh;
+}
+
+.container {
+    max-width: 960px;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    height: auto;
+    padding: 0 40px;
+    position: relative;
+    clear: both;
+}
+
+.react-tabs__tab-panel {
+    display: none;
+}
+
+.react-tabs__tab-panel.active {
+    display: block;
+}
+
+
+/* Home */
+.tokyo_tm_home {
+    width: 100%;
+    min-height: 100vh;
+    clear: both;
+    justify-content: center;
+    position: relative;
+    animation: slider 2s forwards;
+    opacity: 0;
+}
+
+@keyframes slider {
+    0% {
+        transform: translateX(-100px);
+    }
+
+    100% {
+        transform: translateX(0px);
+        opacity: 1;
+    }
+}
+
+.tokyo_tm_home, .tokyo_tm_home .home_content {
+    display: flex;
+    align-items: center;
+}
+
+.tokyo_tm_home .avatar {
+    min-width: 300px;
+    min-height: 300px;
+    position: relative;
+    border-radius: 100%;
+}
+
+.tokyo_tm_home .avatar .image {
+    position: absolute;
+    width: 100%;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-image: url(http://tokyo.ibthemespro.com/assets/img/slider/1.jpg);
+    background-repeat: no-repeat;
+    background-position: 50%;
+    background-size: cover;
+    animation: morph 8s ease-in-out 1s infinite;
+    background-blend-mode: multiply;
+    box-shadow: inset 0 0 0 9px hsl(0deg 0% 100% / 30%);
+    border-radius: 60% 40% 30% 70%/60% 30% 70% 40%;
+    overflow: hidden;
+}
+
+.tokyo_tm_home .details {
+    margin-left: 80px;
+}
+
+.tokyo_tm_home .details .name {
+    font-size: 55px;
+    font-weight: 800;
+    text-transform: uppercase;
+    margin-bottom: 19px;
+    color: #000;
+}
+
+.tokyo_tm_home .details .job {
+    font-family: "Montserrat";
+    font-style: italic;
+    font-weight: 500;
+    max-width: 450px;
+    margin-bottom: 30px;
+}
+
+.tokyo_tm_home .social {
+    width: 100%;
+    float: left;
+    margin: 0;
+    list-style-type: none;
+}
+
+.social li {
+    margin: 0 15px 0 0;
+    display: inline-flex;
+}
+
+.social li a {
+    text-decoration: none;
+    color: #000;
+    transition: 1s;
+}
+
+.social li .svg {
+    width: 17px;
+    height: 17px;
+}
+
+.social li a:hover .svg {
+    animation: dilen 0.5s forwards;
+}
+
+@keyframes dilen{
+    0% {
+        transform: translateY(0);
+    }
+
+    100% {
+        transform: translateY(-5px);
+    }
+}
+
+
+/* About */
+.tokyo_tm_about {
+    width: 100%;
+    height: auto;
+    clear: both;
+    float: left;
+    padding: 100px 0;
+    opacity: 0;
+    animation: slider 2s forwards;
+}
+
+.tokyo_tm_about .about_image {
+    width: 100%;
+    height: auto;
+    clear: both;
+    float: left;
+    margin-bottom: 48px;
+}
+
+.about_image img {
+    width: 100%;
+}
+
+.tokyo_tm_about .description {
+    width: 100%;
+    height: auto;
+    clear: both;
+}
+
+.tokyo_tm_about .description .name {
+    font-weight: 700;
+    font-size: 22px;
+    margin-bottom: 26px;
+    color: #000;
+}
+
+.tokyo_tm_about .description_inner {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.tokyo_tm_about .description .left {
+    width: 55%;
+    padding-right: 50px;
+}
+
+.tokyo_tm_about .description .left p {
+    margin-bottom: 35px;
+    font-style: italic;
+}
+
+.tokyo_tm_button {
+    width: 100%;
+    height: auto;
+    clear: both;
+    float: left;
+}
+
+.ib-button {
+    font-size: 15px;
+    line-height: 15px;
+    padding: 19px 40px;
+    border: none;
+    cursor: pointer;
+}
+
+.ib-button, .tokyo_tm_button a {
+    text-decoration: none;
+    color: #fff;
+    display: inline-block;
+    background-color: #000;
+    padding: 18px 40px 18px;
+    transition: all .3s ease;
+}
+
+.ib-button:hover, .tokyo_tm_button a:hover {
+    letter-spacing: 2px;
+}
+
+.tokyo_tm_about .description .right {
+    width: 45%;
+    padding-left: 50px;
+}
+
+.tokyo_tm_about .description .right>ul {
+    margin: 0;
+    list-style-type: none;
+}
+
+.tokyo_tm_about .description .right>ul>li {
+    margin: 0;
+    width: 100%;
+    float: left;
+}
+
+.tokyo_tm_about .description .right>ul>li a:hover {
+    color: #000;
+    letter-spacing: 2px;
+}
+
+.tokyo_tm_about .description .right>ul>li a {
+    text-decoration: none;
+    color: #787878;
+    transition: all .3s ease;
+}
+
+.tokyo_tm_about .description .right>ul>li span {
+    min-width: 90px;
+    display: inline-block;
+    font-weight: 700;
+    color: #000;
+}
+
+
+/* Portfolio */
+.tokyo_tm_portfolio {
+    padding: 100px 0 50px;
+    position: relative;
+    width: 100%;
+    height: auto;
+    clear: both;
+    float: left;
+    opacity: 0;
+    animation: slider 2s forwards;
+}
+
+.tokyo_tm_title {
+    width: 100%;
+    height: auto;
+    clear: both;
+    float: left;
+    margin-bottom: 62px;
+}
+
+.tokyo_tm_title .title_flex {
+    width: 100%;
+    height: auto;
+    clear: both;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+
+.tokyo_tm_title span.portfolio {
+    display: inline-block;
+    background-color: rgba(0,0,0,.04);
+    text-transform: uppercase;
+    padding: 4px 10px;
+    font-weight: 600;
+    font-size: 12px;
+    color: #333;
+    font-family: "Montserrat";
+    letter-spacing: 0;
+    margin-bottom: 15px;
+}
+
+.tokyo_tm_title h3 {
+    font-weight: 800;
+    font-family: "Montserrat";
+    font-size: 30px;
+    color: black;
+}
+
+.tokyo_tm_title .portfolio_right ul {
+    display: flex;
+    justify-content: space-between;
+}
+
+.tokyo_tm_portfolio .tokyo_tm_title .portfolio_right ul li {
+    margin: 0 25px 0 0;
+    text-decoration: none;
+    color: #767676;
+    display: inline-block;
+    font-weight: 500;
+    font-family: "Montserrat";
+    transition: all .3s ease;
+    cursor: pointer;
+    font-size: 15px;
+}
+
+    /* Danh sách */
+.react-tabs__tab-panel_Portfolio {
+    opacity: 0;
+    animation: slider 2s forwards;
+}
+
+.tokyo_tm_portfolio .portfolio_list {
+    margin: 0 0 0 -50px;
+    list-style-type: none;
+}
+
+.tokyo_tm_title .portfolio_list ul {
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+}
+
+.tokyo_tm_portfolio .portfolio_list li {
+    margin: 0 0 38px;
+    float: left;
+    width: 50%;
+    padding-left: 50px;
+}
+
+.tokyo_tm_portfolio .portfolio_list li .inner {
+    width: 100%;
+    height: 100%;
+    clear: both;
+    float: left;
+    overflow: hidden;
+    position: relative;
+}
+
+.tokyo_tm_portfolio .portfolio_list li .inner .entry, .tokyo_tm_portfolio .portfolio_list li .inner a {
+    position: relative;
+    overflow: hidden;
+}
+
+.tokyo_tm_title .inner .entry {
+    position: relative;
+    overflow: hidden;
+}
+
+.portfolio_list .inner img {
+    width: 100%;
+    height: 415px;
+    object-fit: cover;
+    cursor: pointer;
+    transition: .5s;
+}
+
+.portfolio_list .inner:hover img {
+    transition: .5s;
+    transform: scale(1.1);
+}
+
+.react-tabs__tab-panel_Portfolio {
+    display: none;
+}
+
+.react-tabs__tab-panel_Portfolio.active {
+    display: block;
+}
+
+
+/* News */
+.tokyo_tm_news ul {
+    margin: 0 0 0 -50px;
+    list-style-type: none;
+}
+
+.tokyo_tm_news ul li {
+    margin: 0 0 45px;
+    float: left;
+    width: 50%;
+    padding-left: 50px;
+}
+
+.tokyo_tm_news ul li .list_inner {
+    width: 100%;
+    height: auto;
+    clear: both;
+    float: left;
+    position: relative;
+    background: #fff;
+    box-shadow: 0 0 20px #dfdfdf;
+}
+
+.tokyo_tm_news ul li .list_inner:hover .main{
+    transform: scale(1.1);
+}
+
+.tokyo_tm_news ul li .image {
+    position: relative;
+    overflow: hidden;
+    cursor: pointer;
+}
+
+.tokyo_tm_news ul li .image img {
+    min-width: 100%;
+    max-height: 311.25px;
+    opacity: 0;
+}
+
+.tokyo_tm_news .image .main {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 50%;
+    transition: all .3s ease-in-out;
+}
+
+.tokyo_tm_news ul li .details {
+    width: 100%;
+    float: left;
+    padding: 32px 40px 25px;
+}
+
+.tokyo_tm_news ul li .extra {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 20px;
+    position: relative;
+    border-bottom: 1px solid rgba(0,0,0,.1);
+    padding-bottom: 5px;
+}
+
+.tokyo_tm_news ul li .details .date {
+    text-transform: capitalize;
+    font-family: "Montserrat";
+    font-size: 13px;
+    color: #767676;
+    font-style: italic;
+}
+
+.tokyo_tm_news ul li .details .date a {
+    text-decoration: none;
+    color: #767676;
+    transition: all 1s forwards;
+}
+
+.tokyo_tm_news ul li .details .date span {
+    position: relative;
+    margin-left: 11px;
+}
+
+.tokyo_tm_news ul li .details .title {
+    position: relative;
+    margin-bottom: 10px;
+    text-decoration: none;
+    color: #000;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 1.4;
+    display: inline-block;
+    cursor: pointer;
+}
+
+.tokyo_tm_read_more {
+    width: 100%;
+    height: auto;
+    clear: both;
+    float: left;
+    position: relative;
+    overflow: hidden;
+}
+
+.tokyo_tm_read_more a {
+    text-decoration: none;
+    display: inline-block;
+    overflow: hidden;
+    color: #000;
+    padding-right: 32px;
+    position: relative;
+    text-transform: uppercase;
+    font-weight: 500;
+    font-size: 12px;
+    font-family: montserrat;
+    cursor: pointer;
+    margin-left: -100px;
+}
+
+.tokyo_tm_read_more a:before {
+    position: absolute;
+    content: "";
+    background-color: #000;
+    margin: auto;
+    width: 100%;
+    height: 1px;
+    top: 0;
+    left: 0;
+    bottom: 0;
+}
+
+.tokyo_tm_news ul li .list_inner:hover .tokyo_tm_read_more a{
+    animation: tokyo_disang 0.5s forwards;
+}
+
+.tokyo_tm_news ul li .list_inner:hover .tokyo_tm_read_more a:before {
+    animation: rutngan 0.5s forwards;
+}
+
+@keyframes rutngan {
+    0% {
+        transform: scale(1);
+        transform: translateX(0);
+    }
+
+    100% {
+        transform: scale(.2);
+        transform: translateX(90px);
+    }
+}
+
+
+/* Contact */
+.tokyo_tm_contact .map_wrap {
+    width: 100%;
+    height: auto;
+    clear: both;
+    float: left;
+    margin-bottom: 50px;
+}
+
+.tokyo_tm_contact .fields ul {
+    margin: 0;
+    list-style-type: none;
+}
+
+.tokyo_tm_contact .fields ul li {
+    width: 100%;
+    margin-bottom: 30px;
+    float: left;
+}
+
+.tokyo_tm_contact .fields ul li input {
+    width: 100%;
+    border: 1px solid rgba(0,0,0,.2);
+    background-color: transparent;
+    font-style: italic;
+}
+
+.tokyo_tm_contact .fields textarea {
+    width: 100%;
+    border: 1px solid rgba(0,0,0,.2);
+    height: 120px;
+    resize: none;
+    background-color: transparent;
+}
+
+.tokyo_tm_contact .fields textarea {
+    width: 100%;
+    border: 1px solid rgba(0,0,0,.2);
+    height: 120px;
+    resize: none;
+    background-color: transparent;
+}
+.tokyo_tm_all_wrap, .tokyo_tm_all_wrap * {
+    box-sizing: border-box;
+}
+textarea {
+    border-radius: 0;
+    font-size: 13px;
+    resize: vertical;
+    font-family: "Poppins";
+    letter-spacing: 1.2px!important;
+    -ms-box-sizing: border-box;
+    box-sizing: border-box;
+    line-height: 1.4;
+    padding: 10px!important;
+    width: 100%;
+    border: 1px solid #eee;
+    transition: all .3s ease;
+}
+
+input {
+    border-radius: 0;
+    font-size: 13px;
+    min-width: auto;
+    letter-spacing: 1.4px;
+    -ms-box-sizing: border-box;
+    box-sizing: border-box;
+    font-family: "Poppins";
+    line-height: 1.6;
+    padding: 10px 15px!important;
+    height: 44px;
+    vertical-align: middle;
+    border: 1px solid #eee;
+    transition: all .3s ease;
+}
+
+.tokyo_tm_button {
+    width: 100%;
+    height: auto;
+    clear: both;
+    float: left;
+}
+
+.ib-button {
+    font-size: 15px;
+    line-height: 15px;
+    padding: 19px 40px;
+    border: none;
+    cursor: pointer;
+}
+
+.ib-button, .tokyo_tm_button a {
+    text-decoration: none;
+    color: #fff;
+    display: inline-block;
+    background-color: #000;
+    padding: 20px 40px;
+    transition: all .3s ease;
+}
+
+@keyframes tokyo_disang {
+    0% {
+        transform: translateX(0);
+    }
+
+    100% {
+        transform: translateX(100px);
+    }
+}
+
+/* Reponsiver */
+@media only screen and (max-width: 768px) {
+    body {
+        font-size: 12px;
+    }
+
+    .tokyo_tm_all_wrap .leftpart {
+        width: 100%;
+        height: auto;
+        background-color: #fff;
+    }
+
+    .tokyo_tm_all_wrap .leftpart, 
+    .tokyo_tm_all_wrap .leftpart .menu, 
+    .tokyo_tm_all_wrap .rightpart {
+        padding: 0;
+    }
+
+    .container {
+        padding: 0 20px;
+    }
+
+    .logo {
+        width: 20%;
+    }
+
+    .tokyo_tm_all_wrap .leftpart img {
+        max-width: 100px;
+    }
+
+    .tokyo_tm_all_wrap .leftpart .copyright {
+        display: none;
+    }
+
+    .tokyo_tm_all_wrap .leftpart_inner {
+        display: flex;
+        justify-content: space-between;
+        padding: 1.4rem 3rem 1rem;
+    }
+
+    .tokyo_tm_all_wrap .leftpart .menu {
+        width: auto;
+    }
+
+    .tokyo_tm_all_wrap .leftpart .menu ul li {
+        display: inline;
+    }
+
+    .tokyo_tm_all_wrap .leftpart .menu ul li span {
+        display: none;
+    }
+
+    /* Home */    
+    .tokyo_tm_home, .tokyo_tm_home .home_content {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .tokyo_tm_home .avatar {
+        margin-bottom: 40px;
+    }
+
+    .tokyo_tm_home .details {
+        margin: 0;
+    }
+
+    .tokyo_tm_home .details .job {
+        font-size: 16px;
+        padding-left: 36px;
+    }
+
+
+    /* left about */
+    .tokyo_tm_about .description_inner {
+        display: block;
+    }
+
+    .tokyo_tm_about .description .left {
+        width: 100%;
+        height: 180px;
+        padding: 0;
+        margin-right: 0;
+        margin-bottom: 50px;
+    }
+
+    .tokyo_tm_about .description .left p {
+        width: 100%;
+    }
+
+    .tokyo_tm_about .description .right {
+        width: 100%;
+        padding-left: 0;
+    }
+
+
+    /* Portfolio */
+    .tokyo_tm_portfolio, .tokyo_tm_about {
+        padding-top: 170px;
+    }
+
+    .tokyo_tm_portfolio .tokyo_tm_title .portfolio_right ul li {
+        margin: 0 15px 0 0;
+        font-size: 15px;
+    }
+
+    .tokyo_tm_portfolio .tokyo_tm_title .portfolio_right ul li:last-child {
+        margin: 0;
+    }
+}
+
+@media only screen and (max-width: 375px) {
+    .tokyo_tm_all_wrap .leftpart_inner {
+        display: flex;
+        justify-content: space-between;
+        padding: 1.4rem 1rem 1rem;
+    }
+    
+    /* Home */
+    .tokyo_tm_home .details .name {
+        font-size: 34px;
+    }
+
+    .tokyo_tm_home .details .job {
+        font-size: 15px;
+        padding: 0;
+    }
+
+    /* Portfolio */
+    .tokyo_tm_title .title_flex {
+        width: 100%;
+        height: auto;
+        clear: both;
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .tokyo_tm_title .portfolio_right ul {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .tokyo_tm_title h3 {
+        padding-bottom: 50px;
+    }
+
+    .tokyo_tm_portfolio .tokyo_tm_title .portfolio_right ul li  {
+        font-size: 15px;
+    }
+
+    .tokyo_tm_portfolio .portfolio_list li, .tokyo_tm_news ul li {
+        margin: 0 0 38px;
+        float: flex;
+        width: 100%;
+        padding-left: 50px;
+    }
+
+    .tokyo_tm_title {
+        margin-bottom: 20px;
+    }
+}
+

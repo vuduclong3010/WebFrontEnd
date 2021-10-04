@@ -1,0 +1,374 @@
+html {
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+}
+
+.checkout_page___bUohj {
+    width: 100%;
+    min-height: 90vh;
+    position: relative;
+}
+
+.checkout_page___bUohj .row {
+    margin: 0;
+}
+
+.checkout_page___bUohj .margintop {
+    padding: 90px 185px 0 185px;
+}
+
+.checkout_page {
+    width: 1600px;
+    margin: 0 auto;
+}
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+}
+
+.no-gutterss {
+    padding: 0;
+}
+
+.cart-header__title-container___3at81, .cart-header__price {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+.cart-header__title-container___3at81 h2 {
+    font-size: 42px;
+    font-weight: 600;
+    line-height: 43px;
+    margin-top: 10px;
+    text-transform: uppercase;
+}
+
+.cart-header__price .gl-no-margin-bottom {
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+}
+
+.gl-vspace-bpall-medium {
+    width: 100%;
+    margin-top: 20px;
+}
+
+.line-item__border-redesign___R1Xnz {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    font-size: 16px;
+}
+
+.line-item__image-sizing-wrapper___3pOdx {
+    max-width: 240px;
+}
+
+.line-item__image-wrapper___2p-EQ {
+    display: block;
+    width: 100%;
+    background-color: #e9ecef;
+    position: relative;
+}
+
+.line-item__image-wrapper___2p-EQ img {
+    width: 100%;
+}
+
+.line-item__details-row___3Zur_ {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-left: 15px;
+    margin-top: 15px;
+}
+
+.line-item__title-row___1-PEZ {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+}
+
+.line-item__details___3uoZ5 {
+    padding-bottom: 40px;
+}
+
+.line-item__title-row___1-PEZ .Product-name, .line-item__title-row___1-PEZ .Product-price{
+    color: #000;
+    font-size: 18px;
+    text-transform: uppercase;
+    font-weight: 500;
+}
+
+.item__attribute___1qTmy {
+    display: block;
+    margin-bottom: 3px;
+}
+
+.item__attribute___1qTmy span {
+    color: #000;
+    font-size: 16px;
+    text-transform: uppercase;
+    font-weight: 400;
+}
+
+.item__attribute {
+    display: flex;
+    flex-direction: column;
+}
+
+.item__attribute .line-item__title-row-kickco {
+    display: inline;
+}
+
+.item__attribute .line-item__title-row-kickco span {
+    text-transform: uppercase;
+    font-size: 18px;
+    font-weight: 400;
+}
+
+.item__attribute span.line-item{
+    display: block;
+    text-transform: uppercase;
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.line-item__footer___28iGr {
+    padding-left: 20px;
+}
+
+.line-item__footer {
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: row;
+}
+
+.line-item__footer select {
+    padding: 10px 30px;
+    border: 1px solid #000;
+}
+
+.line-icon {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items:center;
+}
+
+.line-icon i {
+    margin-bottom: 10px;
+    font-size: 18px;
+    cursor: pointer;
+}
+
+.line-icon i:hover {
+    color: #ccc;
+}
+
+
+/* List */
+.list {
+    width: 100%;
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+    padding-top: 50px;
+}
+
+.list .wallpaperWrapper-list {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    background-color: black;
+    margin-bottom: 30px;
+}   
+
+.list .wallpaperWrapper-list a,  .list .wallpaperWrapper-list i{
+    padding: 12px 24px;
+    color: #fff;
+    font-size: 16px;
+    text-transform: uppercase;
+}
+
+.list .wallpaperWrapper-list:hover a, .list .wallpaperWrapper-list:hover i {
+    color: #ccc;
+}
+
+.list .wallpaperWrapper-list i {
+    margin-top: 4px;
+}
+
+.list-chitiet {
+    border: 1px solid #767676;
+    padding: 10px 15px;
+    display: flex;
+    justify-content: flex-end;
+    flex-direction: column;
+    padding-bottom: 50px;
+}
+
+.list-chitiet h2 {
+    font-size: 22px;
+    text-transform: uppercase;
+    font-weight: 600;
+    line-height: 30px;
+}
+
+.list-chitiet .price, .list-chitiet .GiaoHang, .list-chitiet .tongtien{
+    display: flex;
+    justify-content: space-between;
+    font-size: 16px;
+    font-weight: 400;
+    text-transform: uppercase;
+    line-height: 30px;
+}
+
+.list-chitiet .tongtien {
+    font-weight: 700;
+}
+
+
+/* Footer */
+footer {
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    padding-top: 100px;
+}
+
+.footer-box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    flex-wrap: wrap;
+    padding-top: 20px;
+    background-color: #363738;
+}
+
+.footer-box .footer-top, .footer-box .footer-bottom {
+    font-size: 14px
+}
+
+.footer-box .footer-top a {
+    color: #fff;
+    padding: 0 6px;
+    border-left: 1px solid #ccc;
+}
+
+.footer-box .footer-top a:first-child {
+    border: 0;
+}
+
+.footer-box .footer-bottom p {
+    color: #ccc;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Preponsiver Iphone */
+@media only screen and (max-width: 575px) {
+    html {
+        font-size: 12px;
+    }
+    
+    .checkout_page___bUohj .margintop {
+        padding: 0;
+        margin-top: 30px;
+    }
+
+    
+    .line-item__image-sizing-wrapper___3pOdx {
+        max-width: 145px;
+    }
+
+    .checkout_page {
+        width: 100%;
+        margin: 0 auto;
+    }  
+
+    .cart-header__title-container___3at81 h2 {
+        font-size: 30px;
+    }
+
+    .cart-header__price .gl-no-margin-bottom {
+        font-size: 16px;
+    }
+    
+    .line-item___17jCq.line-item__border-redesign___R1Xnz.row {
+        border: 1px solid #767677;
+    }
+
+    .list-chitiet {
+        border: 0;
+        padding: 0;
+    }
+}
+
+
+
+
+
+
+/* Preponsiver Ipad */
+@media only screen and (min-width: 576px) and (max-width: 768px) {
+    html {
+        font-size: 14px;
+    }
+    
+    .checkout_page___bUohj .margintop {
+        padding: 0;
+        margin-top: 30px;
+    }
+
+    .checkout_page {
+        width: 100%;
+        margin: 0 auto;
+    }  
+
+    .cart-header__title-container___3at81 h2 {
+        font-size: 30px;
+    }
+
+    .cart-header__price .gl-no-margin-bottom {
+        font-size: 16px;
+    }
+    
+    .line-item___17jCq.line-item__border-redesign___R1Xnz.row {
+        border: 1px solid #767677;
+    }
+
+    .list-chitiet {
+        border: 0;
+        padding: 0;
+    }
+}

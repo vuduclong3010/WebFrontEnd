@@ -1,0 +1,309 @@
+.header-bottom {
+    border-bottom: 1px solid #666;
+}
+.main {
+    width: 100%;
+    height: auto;
+    position: relative;
+}
+
+.container-fix {
+    position: relative;
+    width: 1550px;
+    min-height: 100vh;
+    padding-top: 70px;
+    margin: 0 auto;
+}
+
+.banner-top.banner-fix-top {
+    top: 110px;
+    left: 0;
+    width: auto;
+    display: block;
+    position: absolute;
+}
+
+.product-title h2 {
+    display: inline-block;
+    font-size: 40px;
+    font-weight: 400;
+    text-transform: uppercase;
+}
+
+
+/* Product */
+.listProduct {
+    position: relative;
+    width: 100%;
+    height: auto;
+    overflow: hidden;
+    margin-top: 170px;
+}
+
+.no-gutter {
+    padding: 0; 
+}
+
+.listProduct .product {
+    width: 385px;
+    height: 475px;
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+    margin-bottom: 20px;
+}
+
+.listProduct .product .product-top {
+    width: 100%;
+    height: 385px;
+    position: relative;
+    z-index: 0;
+}
+
+.product .product-top .product-images-1_zc {
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.product .product-top .product-images-1_zc img {
+    width: 100%;
+    height: 385px;
+}
+
+.product .product-top .product-images-1__z-2 {
+    z-index: 2;
+}
+
+.product .product-top .product-images-1__z-3, .product .product-top .product-icon__z-3 {
+    z-index: 3;
+    opacity: 0;
+    transition: .3s;
+}
+
+.product:hover .product-images-1__z-3, .product:hover .product-icon__z-3 {
+    opacity: 1;
+    transition: .3s;
+}
+
+.product-top .cacicon {
+    position: absolute;
+    z-index: 3;
+    right: 18px;
+    top: 22px;
+    width: 35px;
+    opacity: 0;
+    transition: 0.4s;
+}
+
+.product .cacicon .far {
+    font-size: 20px;
+    color: #999;
+    box-sizing: border-box;
+    width: 35px;
+    height: 35px;
+    padding: 8px;
+    margin-bottom: 10px;
+    border-radius: 50%;
+    border: 1px solid #e1e1e1;
+    transition: 0.4s;
+}
+
+.product:hover .cacicon {
+    opacity: 1;
+}
+
+.product .cacicon .far:hover {
+    background-color: #ff675d;
+    color: white;
+}
+
+.product .nut {
+    width: 100%;
+    position: absolute;
+    z-index: 3;
+    bottom: 0;
+    left: 0;
+    display: inline-block;
+    text-align: center;
+    background-color: #222;
+    color: white;
+    text-decoration: none;
+    text-transform: uppercase;
+    padding: 16px 0;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 700;
+    font-size: 14px;
+    opacity: 0;
+    transition: 0.3s;
+}
+
+.product:hover .nut {
+    opacity: 1;
+    background-color: #222222a1;
+}
+
+.product .nut:hover {
+    opacity: 1;
+    background-color: #222;
+}
+
+/* Detials */
+.product-details {
+    width: 100%;    
+    overflow: hidden;
+}
+
+.product-details .product-details-p-1 {
+    width: 100%;
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+    margin: 0;
+    padding: 5px 10px;
+}
+
+a.product-name {
+    margin-bottom: .3rem;
+    font-family: 'Poppins', sans-serif;
+    font-size: 0.9rem;
+    font-weight: 400;
+    letter-spacing: -.01em;
+    color: #666;
+    padding-right: 20px;
+    overflow: hidden;
+    display: block;
+    transition: 0.4s;
+}
+
+span.price {
+    overflow: hidden;
+    display: block;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-bottom: .3rem;
+    font-size: 1.1rem;
+    font-weight: 600;
+    line-height: 1.86;
+    color: #222;
+}
+
+a.product-name:hover {
+    color: black;
+}
+
+a.product-cat:hover {
+    color: #666;
+}
+
+.ratings-container {
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: row;
+    overflow: hidden;
+}
+
+.ratings-container .left-icon {
+    font-size: 13px;
+}
+
+.ratings-container .left-icon .activer {
+    color: #ff675d;
+}
+
+a.review {
+    font-size: 13px;
+    color: #aaa;
+    display: inline;
+    padding: 0 10px;
+}
+
+a.review:hover {
+    color: black;
+}
+
+
+
+
+
+
+/* Preponsiver Iphone */
+@media only screen and (max-width: 575px) {
+    html {
+        font-size: 12px;
+    }
+
+    .container-fix {
+        width: 100%;
+    }
+
+    .fix-row-ip__ {
+        margin: 0 5px;
+    }
+
+    .listProduct .product {
+        width: 185.5px;
+        height: 260px;
+        margin-bottom: 20px;
+    }
+    
+    .listProduct .product .product-top {
+        width: 100%;
+        height: 185.5px;
+        position: relative;
+        z-index: 0;
+    }
+    
+    .product .product-top .product-images-1_zc {
+        width: 100%;
+        position: absolute;
+        top: 0;
+        left: 0;
+    }
+    
+    .product .product-top .product-images-1_zc img {
+        width: 100%;
+        height: 244px;
+    }
+}
+
+/* Preponsiver Ipad */
+@media only screen and (min-width: 576px) and (max-width: 768px) {
+    html {
+        font-size: 14px;
+    }
+
+    .container-fix {
+        width: 100%;
+    }
+
+    .fix-row-ip__ {
+        margin: 0 15px;
+    }
+
+    .listProduct .product {
+        width: 244px;
+        height: 320px;
+        margin-bottom: 20px;
+    }
+    
+    .listProduct .product .product-top {
+        width: 100%;
+        height: 244px;
+        position: relative;
+        z-index: 0;
+    }
+    
+    .product .product-top .product-images-1_zc {
+        width: 100%;
+        position: absolute;
+        top: 0;
+        left: 0;
+    }
+    
+    .product .product-top .product-images-1_zc img {
+        width: 100%;
+        height: 244px;
+    }
+}

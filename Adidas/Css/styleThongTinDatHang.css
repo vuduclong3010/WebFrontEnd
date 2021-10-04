@@ -1,0 +1,279 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+.header-Dathang {
+    position: relative;
+    width: 100%;
+    height: auto;
+    border-bottom: 1px solid #c8cbcc;
+}
+
+.container-dathang {
+    width: 1600px;
+    padding: 0 185px;
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+    margin: 0 auto;
+}
+
+.logo-box {
+    max-width: 100%;
+    max-height: 100%;
+    position: relative;
+}
+
+.logo-box .logo {
+    max-width: 80px;
+    max-height: 80px;
+}
+
+.logo-box img {
+    width: 100%;
+}
+
+.header-Dathang .header-bottom {
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.header-Dathang .checkout-steps {
+    padding: 10px 15px;
+}
+
+.header-Dathang .checkout-steps a {
+    font-size: 14px;
+    color: #000;
+    font-weight: 500;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+
+.header-Dathang .checkout-steps span.cart-step {
+    background-color: #000;
+    padding: 4px 11px;
+    border-radius: 50%;
+    color: #fff;
+    margin-right: 6px;
+}
+
+
+.checkout_page___bUohj {
+    width: 100%;
+    position: relative;
+    padding: 40px 0;
+}
+
+.no-gutters {
+    padding: 0;
+}
+
+.form-horizontal {
+    width: 100%;
+    margin: 0;
+    display: inline-block;
+    box-sizing: border-box;
+}
+
+.form-horizontal h4 {
+    padding: 0 15px;
+    font-size: 34px;
+    line-height: 28px;
+    text-transform: uppercase;
+    font-weight: 600;
+    font-family: Poppins;
+    margin-bottom: 40px;
+}
+
+.form-horizontal input {
+    border: 1px solid #ccc;
+    border-radius: 0;
+    box-sizing: border-box;
+    font-size: 16px;
+    line-height: 22px;
+    margin: 0;
+    min-height: 50px;
+    padding: 13px 20px 13px 20px;
+    text-transform: none;
+    width: 100%;
+}
+
+.col-lg-6.left___2dtmj {
+    padding-right: 7.5px;
+}
+
+.col-lg-6.right___2dtmj {
+    padding-left: 7.5px;
+} 
+
+.form-horizontal .row .margin {
+    margin-bottom: 30px;
+}
+
+.vspace-bpall-small {
+    margin-top: 30px;
+}
+
+.form-horizontal .QuocGia {
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: row;
+    color: #000;
+    font-size: 18px;
+}
+
+.form-horizontal .QuocGia span {
+    margin-left: 6px;
+}
+
+
+/* Right */
+.gl-vspace-bpall-medium {
+    margin-top: 40px;
+    padding-left: 50px;
+}
+
+.panel___xt5K- {
+    border: solid 1px #e9ecef;
+    padding: 24px 15px;
+}
+
+.panel___xt5K- h4 {
+    font-size: 34px;
+    font-family: Poppins;
+    font-weight: 500;
+    text-transform: uppercase;
+}
+
+.list.list-top {
+    padding-top: 0;
+}
+
+.reset-list {
+    border: 0;
+    padding: 0;
+}
+
+.panel___xt5K-1 {
+    border-top: 0;
+}
+
+.Chitietdonhang {
+    width: 100%;
+    height: auto;
+    position: relative;
+    margin-top: 50px;
+}
+
+.Chitietdonhang .title {
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+.Chitietdonhang .title h5 {
+    text-transform: uppercase;
+    font-weight: 500;
+    font-size: 22px;
+}
+
+.line-item__details-row___3Zur_ {
+    margin: 0;
+}
+
+.line-item__details___3uoZ5 .Product-name-1, .line-item__details___3uoZ5 .Product-price-1,
+.line-item__details___3uoZ5 .item__attribute___1qTmy-1, .line-item__details___3uoZ5 span.line-item-1 ,
+.line-item__details___3uoZ5 .line-item__title-row-kickco-1 span{
+    font-size: 14px;
+}
+
+
+
+
+
+
+
+
+
+/* Reponsiver IPhone */
+@media only screen and (max-width: 575px) {
+    html {
+        font-size: 10px;
+    }
+
+    .logo-box .logo {
+        margin: 0 auto;
+    }
+
+    .container-dathang {
+        width: 100%;
+        padding: 0;
+    }
+
+    .gl-vspace-bpall-medium {
+        padding-left: 0;
+    }
+
+    .form-margin-ip {
+        padding: 0 15px;
+    }
+
+    .col-lg-6.left___2dtmj {
+        padding-right: 0;
+    }
+    
+    .col-lg-6.right___2dtmj {
+        padding-left: 0;
+        margin-top: 30px;
+    }
+
+    .header-Dathang .header-bottom {
+        justify-content: space-between;
+    }
+}
+
+
+
+
+
+
+
+
+
+/* Preponsiver Ipad */
+@media only screen and (min-width: 576px) and (max-width: 768px) {
+    html {
+        font-size: 14px;
+    }
+
+    .logo-box .logo {
+        margin: 0 auto;
+    }
+
+    .container-dathang {
+        width: 100%;
+        padding: 0;
+    }
+
+    .gl-vspace-bpall-medium {
+        padding-left: 0;
+    }
+
+    .form-margin-ip {
+        padding: 0 15px;
+    }
+}
+
+

@@ -1,0 +1,500 @@
+.Product-Category {
+    width: 100%;
+    height: 100%;
+    position: relative;
+    overflow: hidden;
+    padding-top: 70px;
+}
+
+.Product-Category .row>*, .fix-row {
+    padding: 0;
+    margin: 0;
+}
+
+.banner-top {
+    position: absolute;
+    width: 100%;
+    top: 25px;
+    left: 40px;
+    z-index: 100;
+}
+
+.banner-top ul {
+    display: flex;
+    list-style: none;
+}
+
+.banner-top ul li {
+    padding: 0px 6px;
+}
+
+.banner-top ul li:first-child a {
+    font-weight: 600;
+    font-size: 1em;
+}
+
+.banner-top ul li a, .banner-top ul li span {
+    color: #000;
+    font-size: .9em;
+}
+
+.banner-top ul li a {
+    border-bottom: 1px solid #000;
+}
+
+.banner-top ul li:hover, .banner-top ul li:hover a{
+    background-color:black;
+    color: #fff;
+}
+
+/* Hiệu ứng silders */
+.view___CgbJj {
+    overflow: hidden;
+    height: 100%;
+    background-color: #edeff0;
+    position: relative;
+    text-align: center;
+    min-height: 650px;
+}
+
+.desktop-zoom____xoVU {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: space-around;
+}
+
+.desktop-zoom____xoVU .content___1wmQY {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    width: 100%;
+    height: 100%;
+    max-width: calc(100vh - 300px);
+    min-width: 600px;
+    margin: 0 auto;
+}
+
+img {   
+    width: 100%; 
+    min-height: 100%;
+}
+
+.carousel-control-next-icon {
+    background-image: url(../images/TrangChu/right.png);
+    width: 55px;
+    height: 50px;
+}
+
+.carousel-control-prev-icon {
+    background-image: url(../images/TrangChu/left.png);
+    width: 55px;
+    height: 50px;
+}
+
+
+/* Thông tin sp */
+.navigation-wrapper___1E4J7 {
+    width: 100%;
+    height: auto;
+    overflow: hidden;
+    padding: 20px 0;
+}
+
+.navigation-wrapper___1E4J7 .navigation___pjBTo {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-top: 1px solid #ccc;
+    border-bottom: 1px solid #ccc;
+}
+
+.navigation-wrapper___1E4J7 .navigation___pjBTo ul {
+    list-style: none;
+    display: flex;
+    margin: auto;
+    justify-content: center;
+    align-items: center;
+}
+
+.navigation-wrapper___1E4J7 .navigation___pjBTo ul li {
+    display: inline-block;
+    padding: 14px 15px;
+}
+
+.navigation-wrapper___1E4J7 .navigation___pjBTo ul li a {
+    font-size: 14px;
+    color: #000;
+    text-transform: uppercase;
+    font-weight: 500;
+}
+
+.navigation-wrapper___1E4J7 .navigation___pjBTo ul li:first-child a {
+    font-weight: 700;
+}
+
+.navigation-wrapper___1E4J7 .navigation___pjBTo ul li:first-child {
+    border-bottom: 2px solid #000;
+}
+
+.navigation-wrapper___1E4J7 .navigation___pjBTo ul li:hover {
+    border-bottom: 2px solid #ccc;
+}
+
+/* Mô tả */
+.content-item___1H95n {
+    width: 100%;
+    height: auto;
+}
+
+.navigation-target-description {
+    width: 900px;
+    margin: 0 auto;
+}
+
+.navigation-target-description .text-content___1EWJO {
+    padding: 20px 30px 0 0;
+}
+
+.navigation-target-description h5 {
+    padding-right: 0;
+    padding-left: 0;
+    font-size: 2em;
+    line-height: 34px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    font-weight: 400;
+}
+
+.navigation-target-description h5:first-child {
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+
+.navigation-target-description p {
+    font-size: 18px;
+    line-height: 22px;
+    margin-bottom: 16px;
+    margin-top: 20px;
+}
+
+.media___1ux-z img {
+    max-width: 100%;
+}
+
+
+/* Thong so */
+.content-item___1H95n {
+    width: 100%;
+    height: auto;
+    overflow: hidden;
+}
+
+.specifications___1XaPk {
+    width: 930px;
+    margin: 0 auto;
+}
+
+h5.heading___IO3QX {
+    font-size: 2rem;
+    text-transform: uppercase;
+    padding: 10px 0;
+}
+
+.bullets___NV9iB {
+    display: flex;
+    flex-direction: row;
+}
+
+.bullets___NV9iB .gl-list li {
+    width: 465px;
+    display: flex;
+    justify-content: flex-start;
+    padding-top: 20px;
+    padding-left: 20px;
+}
+
+.gl-list--s {
+    font-size: 14px;
+    line-height: 20px;
+}
+
+.gl-list li span {
+    color: #000;
+    font-size: 18px;
+    margin-top: -5px;
+    margin-left: 20px;
+}
+
+
+
+
+/* right */
+.sidebar-wrapper___26z7B {
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    position: relative;
+}
+
+.sidebar-wrapper___26z7B .sidebar___2C-EP {
+    position: sticky;
+    width: 490px;
+    padding: 30px 60px;
+    min-height: 70vh;
+}   
+
+.sidebar-wrapper___26z7B .product-description___2cJO2 {
+    margin-bottom: 0;
+    display: flex;
+    flex-flow: row;
+    flex-wrap: wrap;
+    padding: 0;
+}
+
+.product-description___2cJO2 .product-name {
+    font-size: 2.6em;
+    display: block;
+    font-family: Poppins;
+    font-weight: 400;
+    line-height: 30px;
+}
+
+.color-and-price___2q0A2 {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: baseline;
+}
+
+.color-and-price___2q0A2 h5.prodcut-color {
+    display: block;
+    margin-bottom: 16px;
+    font-size: 16px;
+    text-transform: none;
+    letter-spacing: 0;
+}
+
+.color-and-price___2q0A2 h4.prodcut-price, .buy-section___yYtjH h4.product-size {
+    display: block;
+    margin-bottom: 0;
+    font-size: 1.2em;
+    font-family: Poppins;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+
+.buy-section___yYtjH {
+    width: 100%;
+    height: 100%;
+    padding: 20px 0;
+}
+
+.buy-section___yYtjH h4.product-size {
+    font-size: 1em;
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+
+.sizes___3Stmf {
+    border-left: 1px solid #000;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.size___TqqSo {
+    border: 1px solid #000;
+    border-left: none;
+    margin-bottom: 0;
+    height: 40px;
+    display: flex;
+    margin-bottom: -1px;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    line-height: 1em;
+    cursor: pointer;
+    letter-spacing: -0.2px;
+    font-size: 13px;
+    width: 25%;
+}
+
+.size___TqqSo:hover {
+    background: black;
+    color: #fff;
+    outline: none;
+}
+
+.add-to-bag___3wgQk {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    margin-top: 30px;
+}
+
+.add-to-bag___3wgQk .Order {
+    width: 83%;
+    background-color: #000;
+    padding: 14px 30px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.add-to-bag___3wgQk .Order a {
+    color: #fff;
+    font-size: 14px;
+    text-transform: uppercase;
+    font-weight: 500;
+}
+
+.add-to-bag___3wgQk .Order .fas {
+    color: #fff;
+    font-size: 14px;
+    margin-top: 4px;
+}
+
+.add-to-bag___3wgQk .Order:hover a, .add-to-bag___3wgQk .Order:hover .fas {
+    color: #ccc;
+}
+
+.heart {
+    width: 50px;
+    height: 50px;
+    border: 1px solid #000;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.bottom-callout-stack {
+    width: 100%;
+    height: 100%;
+    margin-top: 20px;
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+}
+
+.bottom-callout-stack .maskable-content___3AqN4 {
+    width: 100%;
+    height: 100%;
+    display: block;
+    margin-top: 4px;
+    border-bottom: 1px solid #000;
+}
+
+.bottom-callout-stack .maskable-content___3AqN4:last-child {
+    border: 0;
+}
+
+.bottom-callout-stack span {
+    font: 14px;
+    font-weight: 400;
+    font-family: Poppins;
+    display: block;
+}
+
+.fix-container.product-ganday {
+    width: 930px;
+    padding: 0;
+    margin: 0 auto;
+}
+
+.swiper-slide,  .swiper-spmoi {
+    width: 260px !important;
+    margin-right: 11px !important;
+    padding: 0;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Reponsiver cho Ipad */
+@media only screen and (min-width: 576px) and (max-width: 768px) {
+    html {
+        font-size: 14px;
+    }
+
+    .Product-Category {
+        padding-top: 0;
+    }
+
+    .desktop-zoom____xoVU .content___1wmQY {
+        max-width: 100%;
+    }
+
+    .Product-Category .row {
+        margin: 0;
+    }
+
+    .sidebar-wrapper___26z7B .sidebar___2C-EP {
+        width: 100%;
+    }
+
+    .carousel-control-next, .carousel-control-prev {
+        width: 7%;
+    }
+
+    .fix-container.product-ganday {
+        width: 100%;
+    }
+
+    .add-to-bag___3wgQk .Order {
+        width: 90%
+    }
+    
+    .navigation-target-description {
+        width: 95%;
+    }
+
+    .media___1ux-z img {
+        width: 70%;
+    }
+
+    .content-item___1H95n {
+        display: none;
+    }
+
+    .content-item___1H95n .specifications___1XaPk {
+        width: 100%;
+    }
+
+    .bullets___NV9iB {
+        flex-direction: column;
+    }
+
+    .bullets___NV9iB .gl-list li {
+        width: 100%;
+        display: flex;
+        justify-content: flex-start;
+        padding-top: 20px;
+        padding-left: 20px;
+    }
+
+}

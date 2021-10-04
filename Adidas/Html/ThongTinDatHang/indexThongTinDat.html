@@ -1,0 +1,297 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Thông tin đặt hàng</title>
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css"/>
+    <link rel="stylesheet" href=".../../../../Css/styleGioHang.css">
+    <link rel="stylesheet" href=".../../../../Css/styleThongTinDatHang.css">
+</head>
+<body>
+    <div class="header-Dathang">
+        <div class="container-dathang">
+            <div class="logo-box">
+                <div class="logo">
+                    <a href="#">
+                        <img src="../../images/TrangChu/adidas_logo_icon512.png" alt="">
+                    </a>
+                </div>
+            </div>
+
+            <div class="header-bottom">
+                <div class="giohang checkout-steps">
+                    <a href="../GioHang/indexGioHang.html">
+                        <span class="cart-step">1</span>
+                        <span>Giỏ hàng</span>
+                    </a>
+                </div>
+                <div class="giaohang checkout-steps">
+                    <a href="#">
+                        <span class="cart-step">2</span>
+                        <span>Giao hàng</span>
+                    </a>
+                </div>
+                <div class="thanhtoan checkout-steps">
+                    <a href="#">
+                        <span class="cart-step">3</span>
+                        <span>Thanh toán</span>
+                    </a>
+                </div>
+                <div class="hoanthanhdonhang checkout-steps">
+                    <a href="#">
+                        <span class="cart-step">4</span>
+                        <span>Hoàn thành đơn hàng</span>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="checkout_page___bUohj">
+        <div class="container-dathang">
+            <div class="row no-gutters">
+                <div class="col-lg-8 col-md-12 col-12 no-gutters">
+                    <form method="post" class="form-horizontal list list-top form-margin-ip">
+                        <div class="row no-gutters">
+                            <h4 class="col-12">Thông tin giao hàng</h4>
+
+                            <div class="row no-gutters vspace-bpall-small">
+                                <div class="no-gutters col-lg-6 col-md-6 col-12 left___2dtmj">
+                                    <input type="text" placeholder="TÊN">
+                                </div>
+                                <div class="no-gutters col-lg-6 col-md-6 col-12 right___2dtmj">
+                                    <input type="text" placeholder="HỌ">
+                                </div>
+                            </div>
+
+                            <div class="no-gutters col-lg-12 col-12 vspace-bpall-small">
+                                <input type="text" placeholder="SỐ NHÀ/TÊN ĐƯỜNG">
+                            </div>
+
+                            <div class="no-gutters col-12 vspace-bpall-small">
+                                <input type="text" placeholder="TÊN TÒA NHÀ/SỐ TẦNG">
+                            </div>
+
+                            <div class="row no-gutters">
+                                <div class="no-gutters col-lg-6 col-md-6 col-12 left___2dtmj  vspace-bpall-small">
+                                    <input type="text" placeholder="THÀNH PHỐ/TỈNH">
+                                </div>
+                                <div class="no-gutters col-lg-6 col-md-6 col-12 right___2dtmj  vspace-bpall-small">
+                                    <input type="text" placeholder="QUẬN">
+                                </div>
+                            </div>
+
+                            <div class="row no-gutters">
+                                <div class="no-gutters col-lg-6 col-md-6 col-12 left___2dtmj  vspace-bpall-small">
+                                    <input type="text" placeholder="PHƯỜNG">
+                                </div>
+                                <div class="no-gutters col-lg-6 col-md-6 col-12 right___2dtmj  vspace-bpall-small">
+                                    <input type="text" placeholder="MÃ BƯU CHÍNH">
+                                </div>
+                            </div>
+
+                            <div class="row">
+                                <div class="QuocGia  vspace-bpall-small">
+                                    <strong>Quốc Gia: </strong>
+                                    <span>Việt Nam</span>
+                                </div>
+                            </div>
+
+                            <div class="wallpaperWrapper-list vspace-bpall-small">
+                                <a href="#">Thanh toán</a>
+                                <i class="fas fa-arrow-right"></i>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+                <div class="col-lg-4 col-md-12 col-12">
+                    <div class="gl-vspace-bpall-medium">
+                        <div class="panel___xt5K-">
+                            <h4>đăng nhập</h4>
+                            <form action="" method="post" class="form-horizontal list list-top">
+                                <div class="row no-gutters">    
+                                    <div class="no-gutters col-lg-12 col-12 vspace-bpall-small">
+                                        <input type="text" placeholder="Email">
+                                    </div>
+        
+                                    <div class="no-gutters col-12 vspace-bpall-small">
+                                        <input type="text" placeholder="Mật Khẩu">
+                                    </div>
+                                    
+                                    <div class="wallpaperWrapper-list vspace-bpall-small">
+                                        <a href="#">đăng nhập</a>
+                                        <i class="fas fa-arrow-right"></i>
+                                    </div>
+                                </div>
+                            </form>
+                        </div>
+
+                        <div class="panel___xt5K- panel___xt5K-1">
+                            <div class="list-chitiet reset-list">
+                                <div class="border-list">
+                                    <h2>Tóm tắt đơn hàng</h2>
+                                    <div class="price">
+                                        <span>4 Loại sản phẩm</span>
+                                        <span>22.000.000đ</span>
+                                    </div>
+                                    <div class="GiaoHang">
+                                        <span>Giao Hàng</span>
+                                        <span>Miễn Phí</span>
+                                    </div>
+                                    <div class="tongtien">
+                                        <span>tổng</span>
+                                        <span>14.000.000đ</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="Chitietdonhang form-margin-ip">
+                            <div class="title">
+                                <h5>CHI TIẾT ĐƠN HÀNG</h5>
+                            </div>
+
+                            <!-- Đơn hàng 1 -->
+                            <div class="col-lg-12 col-md-12 no-gutterss">
+                                <div class="gl-vspace-bpall">
+                                    <div class="line-item___17jCq line-item__border-redesign___R1Xnz row">
+                                        <div class="no-gutterss col-lg-4 col-md-4 col-5 line-item__image-sizing-wrapper___3pOdx">
+                                            <a href="/vi/giày-nmd_r1/GV8422.html?forceSelSize=GV8422_590&amp;quantity=7" class="line-item__image-wrapper___2p-EQ">
+                                                <img src="https://assets.adidas.com/images/w_280,h_280,f_auto,q_auto:sensitive/3b3fe645626949d38b3dad4901167df9_9366/GV8422_590_GV8422_01_standard.jpg.jpg?sh=364&amp;strip=false&amp;sw=364" alt="Giày NMD_R1" data-auto-id="glass-cart-line-item-image">
+                                            </a>
+                                        </div>
+
+                                        <div class="no-gutterss col-lg-8 col-md-8 col-7">
+                                            <div class="line-item__details-row___3Zur_  no-gutterss">
+                                                <div class="row">
+                                                    <div class="col-lg-12 col-md-12 col-12">
+                                                        <div class="line-item__details___3uoZ5">
+                                                            <div class="line-item__title-row___1-PEZ">
+                                                                <span class="Product-name Product-name-1">Tên giày</span>
+                                                                <span class="Product-price Product-price-1">25.000.000</span>
+                                                            </div>
+                                                            <div class="item__attribute___1qTmy item__attribute___1qTmy-1">
+                                                                <span>CORE BLACK / CORE BLACK / RED</span>
+                                                            </div>
+                                                            <div class="item__attribute">
+                                                                <div class="line-item__title-row-kickco line-item__title-row-kickco-1">
+                                                                    <span>Kích cỡ:</spam>
+                                                                    <span>6.5UK</span>
+                                                                </div>
+                                                                <span class="line-item line-item-1">1.888.000đ</span>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div> 
+
+                            <!-- Đơn hàng 2 -->
+                            <div class="col-lg-12 col-md-12 no-gutterss">
+                                <div class="gl-vspace-bpall">
+                                    <div class="line-item___17jCq line-item__border-redesign___R1Xnz row">
+                                        <div class="no-gutterss col-lg-4 col-md-4 col-5 line-item__image-sizing-wrapper___3pOdx">
+                                            <a href="/vi/giày-nmd_r1/GV8422.html?forceSelSize=GV8422_590&amp;quantity=7" class="line-item__image-wrapper___2p-EQ">
+                                                <img src="https://assets.adidas.com/images/w_280,h_280,f_auto,q_auto:sensitive/3b3fe645626949d38b3dad4901167df9_9366/GV8422_590_GV8422_01_standard.jpg.jpg?sh=364&amp;strip=false&amp;sw=364" alt="Giày NMD_R1" data-auto-id="glass-cart-line-item-image">
+                                            </a>
+                                        </div>
+
+                                        <div class="no-gutterss col-lg-8 col-md-8 col-7">
+                                            <div class="line-item__details-row___3Zur_  no-gutterss">
+                                                <div class="row">
+                                                    <div class="col-lg-12 col-md-12 col-12">
+                                                        <div class="line-item__details___3uoZ5">
+                                                            <div class="line-item__title-row___1-PEZ">
+                                                                <span class="Product-name Product-name-1">Tên giày</span>
+                                                                <span class="Product-price Product-price-1">25.000.000</span>
+                                                            </div>
+                                                            <div class="item__attribute___1qTmy item__attribute___1qTmy-1">
+                                                                <span>CORE BLACK / CORE BLACK / RED</span>
+                                                            </div>
+                                                            <div class="item__attribute">
+                                                                <div class="line-item__title-row-kickco line-item__title-row-kickco-1">
+                                                                    <span>Kích cỡ:</spam>
+                                                                    <span>6.5UK</span>
+                                                                </div>
+                                                                <span class="line-item line-item-1">1.888.000đ</span>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div> 
+
+                            <!-- Đơn hàng 3 -->
+                            <div class="col-lg-12 col-md-12 no-gutterss">
+                                <div class="gl-vspace-bpall">
+                                    <div class="line-item___17jCq line-item__border-redesign___R1Xnz row">
+                                        <div class="no-gutterss col-lg-4 col-md-4 col-5 line-item__image-sizing-wrapper___3pOdx">
+                                            <a href="/vi/giày-nmd_r1/GV8422.html?forceSelSize=GV8422_590&amp;quantity=7" class="line-item__image-wrapper___2p-EQ">
+                                                <img src="https://assets.adidas.com/images/w_280,h_280,f_auto,q_auto:sensitive/bab925ce4f0b4a2db723ad2c00c488fc_9366/GX0999_600_GX0999_01_standard.jpg.jpg?sh=364&strip=false&sw=364" alt="Giày NMD_R1" data-auto-id="glass-cart-line-item-image">
+                                            </a>
+                                        </div>
+
+                                        <div class="no-gutterss col-lg-8 col-md-8 col-7">
+                                            <div class="line-item__details-row___3Zur_  no-gutterss">
+                                                <div class="row">
+                                                    <div class="col-lg-12 col-md-12 col-12">
+                                                        <div class="line-item__details___3uoZ5">
+                                                            <div class="line-item__title-row___1-PEZ">
+                                                                <span class="Product-name Product-name-1">Tên giày</span>
+                                                                <span class="Product-price Product-price-1">25.000.000</span>
+                                                            </div>
+                                                            <div class="item__attribute___1qTmy item__attribute___1qTmy-1">
+                                                                <span>CORE BLACK / CORE BLACK / RED</span>
+                                                            </div>
+                                                            <div class="item__attribute">
+                                                                <div class="line-item__title-row-kickco line-item__title-row-kickco-1">
+                                                                    <span>Kích cỡ:</spam>
+                                                                    <span>6.5UK</span>
+                                                                </div>
+                                                                <span class="line-item line-item-1">1.888.000đ</span>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div> 
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+    <footer>
+        <div class="footer-box">
+            <div class="footer-top">
+                <a href="">Chính sách bảo mật</a>
+                <a href="">Các điều khoản và điều kiện</a>
+                <a href="">Thông tin công ty</a>
+            </div>
+            <div class="footer-bottom">
+                <p>© 2021 adidas Vietnam Company Limited</p>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
